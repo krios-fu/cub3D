@@ -7,4 +7,10 @@ Su objetivo será crear una vista dinámica dentro de un laberinto, en el que te
 
 ![cub3D](https://user-images.githubusercontent.com/59937322/110688938-6ad70300-81e2-11eb-91d6-811082dab3bf.png)
 
-![cub3D](https://github.com/krios-fu/cub3D/issues/2#issue-828261634)
+**Hacer:** 
+
+`make  && make run`
+
+`/cub3D map.cub`
+
+`./cub3D map.cub --save` **_(Screenshot )_**
