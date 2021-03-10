@@ -7,12 +7,4 @@ Su objetivo será crear una vista dinámica dentro de un laberinto, en el que te
 
 ![cub3D](https://user-images.githubusercontent.com/59937322/110688938-6ad70300-81e2-11eb-91d6-811082dab3bf.png)
 
-Comandos:
-
-->make (Inicializa los archivos)
-
-----> make run (crea el ejecutable llamado cub3D)
-
-------> ./cub3D map.cub (Inicia el programa cub3D pasandole como argumento map.cub)
-
----------> ./cub3D map.cub --save (Screenshot de la vista principal)
+![cub3D](https://github.com/krios-fu/cub3D/issues/2#issue-828261634)
