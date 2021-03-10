@@ -11,6 +11,6 @@ Su objetivo será crear una vista dinámica dentro de un laberinto, en el que te
 
 `make  && make run`
 
-`/cub3D map.cub`
+`./cub3D map.cub`
 
 `./cub3D map.cub --save` **_(Screenshot )_**
