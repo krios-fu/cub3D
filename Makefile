@@ -8,6 +8,7 @@ OBJ=$(OBJ1:.m=.o)
 $(NAME):	$(OBJ)
 	@make -sC ./libft/
 	@cp libft/libft.a .
+	@make -sC ./minilibx/
 	@ar -rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
 	@echo "\n\033[36m"****************\\nCompiled...\\n****************\\n"\033[0m\n"
@@ -15,20 +16,21 @@ $(NAME):	$(OBJ)
 run:
 	@clear
 	@echo "\n\033[36m"****************\\nStart...\\n****************\\n"\033[0m\n"
-	@gcc -Wall -Wextra -Werror -lmlx -framework OpenGL -framework AppKit $(SRC) libft.a -o cub3D
+	@gcc -Wall -Wextra -Werror ./minilibx/libmlx.a -framework OpenGL -framework AppKit $(SRC) libft.a -o cub3D
 	@rm -rf cub3D.dSYM
 
 all: $(NAME)
 
 clean:
 	@rm -f $(NAME) $(OBJ) ./src/code
-	@make -sC ./opengl/ clean
+	@make -sC ./minilibx/ clean
 	@make -sC ./libft/ fclean
 	@clear
 	@echo "\n\033[36m"****************\\nDeleted files...\\n****************\\n"\033[0m\n"
 
 fclean: clean
 		@rm -rf libft.a
+		@rm -rf cub3D
 	
 re: clean all
 

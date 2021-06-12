@@ -6,7 +6,7 @@
 /*   By: krios-fu <krios-fu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 13:06:36 by krios-fu          #+#    #+#             */
-/*   Updated: 2021/01/04 14:53:04 by krios-fu         ###   ########.fr       */
+/*   Updated: 2021/06/12 02:31:21 by krios-fu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include "../../libft/libft.h"
 # include "../../gnl/get_next_line_bonus.h"
-# include <mlx.h>
+# include "../../minilibx/mlx.h"
 # include <math.h>
 # include <fcntl.h>
 # include <stdlib.h>
